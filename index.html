@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .asd{
+            border: 2px solid black;
+            width: 22.5%;
+            text-align: center;
+            padding: 40px;
+            margin: auto;
+        }
+        button{
+            margin: 5px;
+        }
+        .ab{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="asd" >
+    <div >
+        <input placeholder="0" type="text" value="" name="" id="calcuator-text">
+    </div><br>
+    
+    <div>
+        <button  onclick="calculation(1)">1</button>
+        <button onclick="calculation(2)">2</button>
+        <button onclick="calculation(3)">3</button>
+        <button onclick="calculation('+')">+</button>
+    </div>
+
+    <div>
+        <button onclick="calculation(4)">4</button>
+        <button onclick="calculation(5)">5</button>
+        <button onclick="calculation(6)">6</button>
+        <button onclick="calculation('-')">-</button>
+    </div>
+
+    <div>
+        <button onclick="calculation(7)">7</button>
+        <button onclick="calculation(8)">8</button>
+        <button onclick="calculation(9)">9</button>
+        <button onclick="calculation('*')">x</button>
+    </div>
+
+    <div>
+        <button onclick="clearInput()">C</button>
+        <button onclick="calculation(0)">0</button>
+        <button onclick="calculation('/')">/</button>
+        <button onclick="result()">=</button>
+    </div>
+<script src="app.js">
+
+</script>
+</body>
+</html>
